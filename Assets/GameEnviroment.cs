@@ -6,8 +6,8 @@ public class GameEnviroment : MonoBehaviour
 {
     private static GameEnviroment instance;
     private List<GameObject> checkpoint = new List<GameObject>();
-    public List<GameObject> Checkpoints { get { return Checkpoints; } }
 
+    public List<GameObject> Checkpoints { get { return checkpoint; } }
     public static GameEnviroment Singleton
     {
         get
