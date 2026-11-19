@@ -541,6 +541,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Torch
       objectReference: {fileID: 0}
+    - target: {fileID: 6068245796412973530, guid: 3dc4a0fc57551479ca6d1e8f3582ab28, type: 3}
+      propertyPath: m_Materials.Array.size
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3dc4a0fc57551479ca6d1e8f3582ab28, type: 3}
 --- !u!1 &270736626
@@ -1573,12 +1577,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a3d2b1be44405d34bb590b1e1c38f3de, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  player: {fileID: 786520897}
---- !u!4 &786520897 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 7743435048063679030, guid: 87f465c82db6b484ca3ec1be1dd799fb, type: 3}
-  m_PrefabInstance: {fileID: 40711646}
-  m_PrefabAsset: {fileID: 0}
+  player: {fileID: 1902546829}
 --- !u!114 &786520898
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2933,6 +2932,11 @@ PrefabInstance:
 Transform:
   m_CorrespondingSourceObject: {fileID: 8668163012129581079, guid: a82208a4072e44a15bcd1cdec9111657, type: 3}
   m_PrefabInstance: {fileID: 1833494128018621037}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &1902546829 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 572323189224076289, guid: 600be4a371d7c41a58b162eb0d4ffdb7, type: 3}
+  m_PrefabInstance: {fileID: 1520082996}
   m_PrefabAsset: {fileID: 0}
 --- !u!4 &1908428655 stripped
 Transform:
